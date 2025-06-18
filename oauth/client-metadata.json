@@ -1,0 +1,9 @@
+{
+  "client_id": "https://tgunther-zerofox.github.io/bs-test/oauth/client-metadata.json",
+  "application_type": "web",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "scope": "atproto",
+  "response_types": ["code"],
+  "redirect_uris": ["https://localhost:8000/social_auth/return"],
+  "dpop_bound_access_tokens": true
+}
