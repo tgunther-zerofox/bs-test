@@ -4,6 +4,7 @@
   "grant_types": ["authorization_code", "refresh_token"],
   "scope": "atproto",
   "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
   "redirect_uris": ["http://127.0.0.1:8000/social_auth/return"],
   "dpop_bound_access_tokens": true
 }
