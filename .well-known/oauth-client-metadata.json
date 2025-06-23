@@ -5,8 +5,6 @@
   "scope": "atproto",
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "redirect_uris": [
-    "https://12c5-34-208-10-59.ngrok-free.app/social_auth/return"
-  ],
+  "redirect_uris": ["https://dev.myapp.test/social_auth/return"],
   "dpop_bound_access_tokens": true
 }
